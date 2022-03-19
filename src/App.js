@@ -1,11 +1,10 @@
 import "./App.css";
-import MySwiper from "./components/MySwiper";
+import Gallery from "./components/gallery";
 
 function App() {
   return (
     <div className="App">
-      <MySwiper />
-
+      <Gallery />
     </div>
   );
 }
