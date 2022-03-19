@@ -1,0 +1,19 @@
+.swiper-slide {
+  background-color: aliceblue;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #fff;
+  height: 100px;
+  width: 40px;
+  border-radius: 4px;
+}
+
+.swiper-button-prev {
+    left:0;
+}
+
+.swiper-button-next {
+    right: 0;
+}
