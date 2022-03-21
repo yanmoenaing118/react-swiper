@@ -1,0 +1,32 @@
+.horizontal-slider {
+    border: 1px solid #ccc;
+    height: 20px;
+
+    margin: 0 auto;
+}
+
+.example-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #0D99BA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.example-track {
+    height: 2px;
+    background-color: #0D99BA;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.values {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
