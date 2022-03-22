@@ -1,11 +1,11 @@
 import "./App.css";
-import Gallery from "./components/gallery";
-import PriceSlider from "./components/slider";
+import RcSlide from "./components/rc-slide";
+
 
 function App() {
   return (
     <div className="App">
-      <PriceSlider />
+      <RcSlide />
     </div>
   );
 }

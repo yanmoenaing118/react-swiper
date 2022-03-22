@@ -1,0 +1,10 @@
+.RcSlide {
+    width: min(800px,90%);
+    margin: 0 auto;
+    
+}
+
+.my-slide {
+    margin-top: 40px;
+}
+
