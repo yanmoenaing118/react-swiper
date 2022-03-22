@@ -1,11 +1,10 @@
 import "./App.css";
-import RcSlide from "./components/rc-slide";
-
+import Screens from "./components/screens";
 
 function App() {
   return (
     <div className="App">
-      <RcSlide />
+      <Screens />
     </div>
   );
 }
