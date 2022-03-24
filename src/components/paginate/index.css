@@ -1,0 +1,26 @@
+.pagination-container {
+
+}
+
+.paginate {
+    display: flex;
+    list-style-type: none;
+    gap: 4px;
+    align-items: center;
+}
+
+.paginateButton {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.paginateActive {
+    background-color: blueviolet;
+    color: #fff;
+}

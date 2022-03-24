@@ -1,10 +1,10 @@
 import "./App.css";
-import Screens from "./components/screens";
+import Pagination from "./components/paginate";
 
 function App() {
   return (
     <div className="App">
-      <Screens />
+      <Pagination itemsPerPage={4} />
     </div>
   );
 }
