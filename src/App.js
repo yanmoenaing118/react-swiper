@@ -1,10 +1,9 @@
 import "./App.css";
-import Pagination from "./components/paginate";
 
 function App() {
   return (
     <div className="App">
-      <Pagination itemsPerPage={4} />
+     some app
     </div>
   );
 }
