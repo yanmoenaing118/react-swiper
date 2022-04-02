@@ -1,9 +1,11 @@
 import "./App.css";
 
+import MapBoxMap from "./components/mapbox";
+
 function App() {
   return (
     <div className="App">
-     some app
+      <MapBoxMap />
     </div>
   );
 }
