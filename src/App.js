@@ -1,11 +1,11 @@
 import "./App.css";
-
-import MapBoxMap from "./components/mapbox";
+import 'mapbox-gl/dist/mapbox-gl.css';
+import ReactMapboxGlExample from "./components/react-mapbox/ReactMapboxGL";
 
 function App() {
   return (
     <div className="App">
-      <MapBoxMap />
+      <ReactMapboxGlExample />
     </div>
   );
 }
